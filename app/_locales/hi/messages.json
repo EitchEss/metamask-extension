@@ -41,6 +41,9 @@
   "QRHardwareWalletSteps1Title": {
     "message": "अपने QR hardware wallet को कनेक्ट करें"
   },
+  "QRHardwareWalletSteps2Description": {
+    "message": "Ngrave ज़ीरो"
+  },
   "SIWEAddressInvalid": {
     "message": "साइन-इन रिक्वेस्ट का एड्रेस उस अकाउंट के एड्रेस से मेल नहीं खाता जिसका इस्तेमाल आप साइन इन करने के लिए कर रहे हैं।"
   },
@@ -132,6 +135,9 @@
   },
   "accountActivityText": {
     "message": "वे अकाउंट चुनें जिनके बारे में आप सूचित होना चाहते हैं:"
+  },
+  "accountBalance": {
+    "message": "अकाउंट बैलेंस"
   },
   "accountDetails": {
     "message": "अकाउंट की जानकारी"
@@ -246,6 +252,9 @@
   "addEthereumChainWarningModalTitle": {
     "message": "आप Ethereum Mainnet के लिए एक नया RPC प्रोवाइडर जोड़ रहे हैं"
   },
+  "addEthereumWatchOnlyAccount": {
+    "message": "कोई Ethereum अकाउंट देखें (Beta)"
+  },
   "addFriendsAndAddresses": {
     "message": "उन मित्रों और पतों को जोड़ें, जिन पर आप भरोसा करते हैं"
   },
@@ -263,6 +272,10 @@
   },
   "addNetwork": {
     "message": "नेटवर्क जोड़ें"
+  },
+  "addNetworkConfirmationTitle": {
+    "message": "$1 जोड़ें",
+    "description": "$1 represents network name"
   },
   "addNewAccount": {
     "message": "एक नया Ethereum अकाउंट जोड़ें"
@@ -324,6 +337,17 @@
   },
   "addressCopied": {
     "message": "एड्रेस कॉपी किया गया!"
+  },
+  "addressMismatch": {
+    "message": "साइट एड्रेस का मैच न होना"
+  },
+  "addressMismatchOriginal": {
+    "message": "वर्तमान URL: $1",
+    "description": "$1 replaced by origin URL in confirmation request"
+  },
+  "addressMismatchPunycode": {
+    "message": "पुनीकोड ​​वर्शन: $1",
+    "description": "$1 replaced by punycode version of the URL in confirmation request"
   },
   "advanced": {
     "message": "एडवांस्ड"
@@ -389,6 +413,9 @@
   },
   "alertDisableTooltip": {
     "message": "इसे \"सेटिंग > अलर्ट\" में बदला जा सकता है"
+  },
+  "alertMessageAddressMismatchWarning": {
+    "message": "हमला करने वाले कभी-कभी साइट के एड्रेस में छोटे-छोटे बदलाव करके साइटों की नकल करते हैं। जारी रखने से पहले सुनिश्चित करें कि आप इच्छित साइट के साथ इंटरैक्ट कर रहे हैं।"
   },
   "alertMessageGasEstimateFailed": {
     "message": "हम सटीक शुल्क प्रदान करने में असमर्थ हैं और यह अनुमान अधिक हो सकता है। हम आपको एक कस्टम गैस लिमिट दर्ज करने का सुझाव देते हैं, लेकिन जोखिम है कि ट्रांसेक्शन अभी भी विफल हो जाएगा।"
@@ -993,6 +1020,21 @@
   "confirmRecoveryPhrase": {
     "message": "सीक्रेट रिकवरी फ्रेज कन्फर्म करें"
   },
+  "confirmTitleApproveTransaction": {
+    "message": "भत्ता का अनुरोध"
+  },
+  "confirmTitleDeployContract": {
+    "message": "एक कॉन्ट्रैक्ट करें"
+  },
+  "confirmTitleDescApproveTransaction": {
+    "message": "यह साइट आपके NFTs को निकालने की अनुमति चाहती है"
+  },
+  "confirmTitleDescDeployContract": {
+    "message": "यह साइट चाहती है कि आप एक कॉन्ट्रैक्ट करें"
+  },
+  "confirmTitleDescERC20ApproveTransaction": {
+    "message": "यह साइट आपके टोकन को निकालने की अनुमति चाहती है"
+  },
   "confirmTitleDescPermitSignature": {
     "message": "यह साइट आपके टोकन खर्च करने की अनुमति चाहती है।"
   },
@@ -1083,6 +1125,9 @@
   "connectedSites": {
     "message": "कनेक्ट की गई साइटें"
   },
+  "connectedSitesAndSnaps": {
+    "message": "कनेक्टेड साइटें और Snaps"
+  },
   "connectedSitesDescription": {
     "message": "$1 इन साइटों से कनेक्ट है। वे आपके अकाउंट का एड्रेस देख सकते हैं।",
     "description": "$1 is the account name"
@@ -1093,6 +1138,9 @@
   },
   "connectedSnapAndNoAccountDescription": {
     "message": "MetaMask इस साइट से कनेक्टेड है, लेकिन अभी तक कोई अकाउंट कनेक्ट नहीं किया गया है"
+  },
+  "connectedSnaps": {
+    "message": "कनेक्टेड Snaps"
   },
   "connectedWith": {
     "message": "से कनेक्ट किया गया"
@@ -1203,6 +1251,9 @@
   },
   "copyAddress": {
     "message": "क्लिपबोर्ड पर एड्रेस कॉपी करें"
+  },
+  "copyAddressShort": {
+    "message": "एड्रेस कॉपी करें"
   },
   "copyPrivateKey": {
     "message": "प्राइवेट की (key) को कॉपी करें"
@@ -1590,6 +1641,9 @@
   "editANickname": {
     "message": "उपनाम बदलें"
   },
+  "editAccounts": {
+    "message": "एकाउंट्स बदलें"
+  },
   "editAddressNickname": {
     "message": "एड्रेस उपनाम बदलें"
   },
@@ -1669,6 +1723,9 @@
   },
   "editNetworkLink": {
     "message": "मूल नेटवर्क को संपादित करें"
+  },
+  "editNetworksTitle": {
+    "message": "नेटवर्क बदलें"
   },
   "editNonceField": {
     "message": "Nonce बदलें"
@@ -2771,6 +2828,9 @@
   "more": {
     "message": "अधिक"
   },
+  "multichainAddEthereumChainConfirmationDescription": {
+    "message": "आप इस नेटवर्क को MetaMask में जोड़ रहे हैं और इस साइट को इसका उपयोग करने की अनुमति दे रहे हैं।"
+  },
   "multipleSnapConnectionWarning": {
     "message": "$1 $2 Snaps का उपयोग करना चाहता है",
     "description": "$1 is the dapp and $2 is the number of snaps it wants to connect to."
@@ -2852,10 +2912,6 @@
   "nativeTokenScamWarningConversion": {
     "message": "नेटवर्क का ब्यौरा बदलें"
   },
-  "nativeTokenScamWarningDescription": {
-    "message": "यह नेटवर्क अपनी एसोसिएटेड चेन ID या नाम से मेल नहीं खाता है। कई लोकप्रिय टोकन $1 नाम का उपयोग करते हैं, जिससे इसमें स्कैम किया जा सकता है। स्कैम करने वाले आपको बदले में ज़्यादा कीमती करेंसी भेजने का झांसा दे सकते हैं। आगे बढ़ने से पहले सब कुछ वेरीफाई करें।",
-    "description": "$1 represents the currency name, $2 represents the expected currency symbol"
-  },
   "nativeTokenScamWarningTitle": {
     "message": "यह एक बड़ा स्कैम हो सकता है",
     "description": "Title for nativeTokenScamWarningDescription"
@@ -2888,6 +2944,9 @@
   },
   "networkDetails": {
     "message": "नेटवर्क विवरण"
+  },
+  "networkFee": {
+    "message": "नेटवर्क फी"
   },
   "networkIsBusy": {
     "message": "नेटवर्क व्यस्त है। गैस प्राइसें अधिक हैं और अनुमान कम सटीक हैं।"
@@ -2964,11 +3023,19 @@
     "message": "हम $1 से कनेक्ट नहीं कर सकते",
     "description": "$1 represents the network name"
   },
+  "networkSwitchMessage": {
+    "message": "नेटवर्क $1 पर स्विच किया गया",
+    "description": "$1 represents the network name"
+  },
   "networkURL": {
     "message": "नेटवर्क URL"
   },
   "networkURLDefinition": {
     "message": "इस नेटवर्क तक पहुंचने के लिए इस्तेमाल किया जाने वाला URL।"
+  },
+  "networkUrlErrorWarning": {
+    "message": "हमला करने वाले कभी-कभी साइट के एड्रेस में छोटे-छोटे बदलाव करके साइटों की नकल करते हैं। जारी रखने से पहले सुनिश्चित करें कि आप इच्छित साइट के साथ इंटरैक्ट कर रहे हैं। पुनीकोड ​​वर्शन: $1",
+    "description": "$1 replaced by RPC URL for network"
   },
   "networks": {
     "message": "नेटवर्क"
@@ -3699,6 +3766,14 @@
     "message": "$1 को आपकी MetaMask सेटिंग्स से आपकी पसंदीदा भाषा ऐक्सेस करने दें। इसे आपकी भाषा का उपयोग करके $1 के कंटेंट का स्थानीय भाषा में अनुवाद करने और उसे दिखाने के लिए इस्तेमाल किया जा सकता है।",
     "description": "An extended description for the `snap_getLocale` permission. $1 is the snap name."
   },
+  "permission_getPreferences": {
+    "message": "अपनी पसंदीदा भाषा और फिएट करेंसी जैसी जानकारी देखें।",
+    "description": "The description for the `snap_getPreferences` permission"
+  },
+  "permission_getPreferencesDescription": {
+    "message": "$1 को अपनी MetaMask सेटिंग्स में अपनी पसंदीदा भाषा और फिएट करेंसी जैसी जानकारी तक पहुंचने दें। यह $1 को आपकी प्राथमिकताओं के अनुरूप सामग्री प्रदर्शित करने में मदद करता है। ",
+    "description": "An extended description for the `snap_getPreferences` permission. $1 is the snap name."
+  },
   "permission_homePage": {
     "message": "एक कस्टम स्क्रीन दिखाएं",
     "description": "The description for the `endowment:page-home` permission"
@@ -4390,6 +4465,10 @@
     "message": "$1 द्वारा पावर्ड",
     "description": "The security provider that is providing data"
   },
+  "seeAllPermissions": {
+    "message": "सभी अनुमतियां देखें",
+    "description": "Used for revealing more content (e.g. permission list, etc.)"
+  },
   "seeDetails": {
     "message": "ब्यौरा देखें"
   },
@@ -4642,6 +4721,12 @@
   },
   "signingInWith": {
     "message": "के साथ साइन इन करना"
+  },
+  "simulationApproveHeading": {
+    "message": "निकालें"
+  },
+  "simulationDetailsApproveDesc": {
+    "message": "आप किसी अन्य को अपने अकाउंट से NFTs निकालने की अनुमति दे रहे हैं।"
   },
   "simulationDetailsFailed": {
     "message": "आपका एस्टीमेशन लोड करने में गड़बड़ी हुई।"
@@ -4985,6 +5070,9 @@
   "spender": {
     "message": "खर्च करने वाला"
   },
+  "spenderTooltipDesc": {
+    "message": "यही वह एड्रेस है जो आपके NFTs को निकाल पाएगा।"
+  },
   "spendingCap": {
     "message": "खर्च करने की लिमिट"
   },
@@ -4997,6 +5085,9 @@
   },
   "spendingCapRequest": {
     "message": "आपके $1 के लिए खर्च करने की लिमिट का अनुरोध"
+  },
+  "spendingCapTooltipDesc": {
+    "message": "यह टोकन की वह राशि है जिसे खर्च करने वाला आपकी ओर से प्राप्त कर सकेगा।"
   },
   "srpInputNumberOfWords": {
     "message": "मेरे पास एक $1-शब्द का फ़्रेज़ है",
@@ -5704,6 +5795,9 @@
   "termsOfUseTitle": {
     "message": "हमारी इस्तेमाल की शर्तों को अपडेट कर दिया गया है"
   },
+  "testnets": {
+    "message": "Testnets"
+  },
   "theme": {
     "message": "थीम"
   },
@@ -6243,6 +6337,13 @@
   "warningTooltipText": {
     "message": "$1 थर्ड पार्टी आपकी संपूर्ण टोकन बैलेंस को बिना किसी सूचना या सहमति के खर्च कर सकता है। खर्च की कम सीमा को कस्टमाइज़ करके खुद को सुरक्षित रखें।",
     "description": "$1 is a warning icon with text 'Be careful' in 'warning' colour"
+  },
+  "watchEthereumAccountsDescription": {
+    "message": "इस विकल्प को चालू करने से आपको पब्लिक एड्रेस या ENS नाम के माध्यम से Ethereum एकाउंट्स को देखने की सुविधा मिलेगी। इस Beta फीचर पर प्रतिक्रिया के लिए कृपया इस $1 को पूरा करें।",
+    "description": "$1 is the link to a product feedback form"
+  },
+  "watchEthereumAccountsToggle": {
+    "message": "Ethereum एकाउंट्स देखें (Beta)"
   },
   "weak": {
     "message": "कमज़ोर"
